@@ -1,5 +1,5 @@
 =====================================================================
-Repository: Modeling for ACS Sustainable Chemistry & Engineering Manuscript
+Repository: Modeling for Recovery and Enrichment of Organic Acids from Kraft Black Liquor by Simulated Moving Bed Adsorption
 =====================================================================
 
 Journal: ACS Sustainable Chemistry & Engineering
