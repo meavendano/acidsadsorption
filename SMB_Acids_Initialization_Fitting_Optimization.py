@@ -17,7 +17,7 @@ import pandas as pd
 
 ##Please see the excel file for more information
 
-filename='AcidsExpData_Nov21.xlsx'
+filename='AcidsExpData_2023.xlsx'
 df_conc=pd.read_excel(filename,sheet_name='Exp Concentration g_L',index_col=[0,1]) #experimental weight fractions
 df_exp_wt=pd.read_excel(filename,sheet_name='Experimental Fractions',index_col=[0,1]) #experimental weight fractions
 df_conc_ex=pd.read_excel(filename,sheet_name='Experimental Extract',index_col=0) #experimental weight fractions
@@ -37,8 +37,7 @@ flow_rates=df_flow_rates.to_dict()[df_flow_rates.columns[0]]
 # -------------------------------------------------------------------
 ####Define Parameters and Constants Section
 # -------------------------------------------------------------------
-
-#%% 
+ 
 #Number of discretization points in x
 nfex=10
 nfet=3
@@ -50,7 +49,7 @@ ncp=3
 nc=[2,2,2,2]
 
 #Select the experimental runs to solve
-data_index=[1,2,3]
+data_index=['a','b','c']
 
 #Data points
 data=len(data_index)
