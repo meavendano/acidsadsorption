@@ -15,7 +15,7 @@ a framework expressed as a non-linear problem (NLP) solved using Ipopt 13.12.
 
 Installation Instructions:
 --------------------------
-The installation of Pyomo and Ipopt can be done following the guidelines provided in Suzuki and Kawajiri 2021. Refer to the respective documentation for installation details.
+The installation of Pyomo and Ipopt can be done following the guidelines provided in Suzuki and Kawajiri 2021 (https://github.com/suzuki1969/Python-based_SMB_Optimizer). Refer to the respective documentation for installation details.
 
 Files Included:
 ---------------
